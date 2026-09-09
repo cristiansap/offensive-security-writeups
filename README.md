@@ -34,11 +34,11 @@ offensive-security-writeups/
 └── LICENSE-MIT
 ```
 
-Each challenge folder includes my `solve.py`/`exploit.py` and/or a `solution.md` write-up explaining the vulnerability and the exploitation steps.
+Each challenge folder includes my `solve.py`/`exploit.py` and/or a `README.md` write-up explaining the vulnerability and the exploitation steps.
 
 ## Report
 
-`report/` contains the final academic report submitted for the exam, *"Authentication Bypass in Web Applications: Vulnerabilities, Attack Techniques, and Case Studies"*, covering MFA, OAuth 2.0, and SAML — technical background, common weaknesses, reconnaissance checklists, attack walkthroughs (PortSwigger Academy labs + real-world CVEs), and mitigations.
+`report/` contains an in-depth academic report, *"Authentication Bypass in Web Applications: Vulnerabilities, Attack Techniques, and Case Studies"*, covering MFA, OAuth 2.0, and SAML — technical background, common weaknesses, reconnaissance checklists, attack walkthroughs (PortSwigger Academy labs + real-world CVEs), and mitigations.
 
 ## Notes
 
